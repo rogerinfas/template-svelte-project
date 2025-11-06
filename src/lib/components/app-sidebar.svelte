@@ -1,19 +1,22 @@
 <script lang="ts">
-	import CameraIcon from "@tabler/icons-svelte/icons/camera";
-	import ChartBarIcon from "@tabler/icons-svelte/icons/chart-bar";
-	import DashboardIcon from "@tabler/icons-svelte/icons/dashboard";
-	import DatabaseIcon from "@tabler/icons-svelte/icons/database";
-	import FileAiIcon from "@tabler/icons-svelte/icons/file-ai";
-	import FileDescriptionIcon from "@tabler/icons-svelte/icons/file-description";
-	import FileWordIcon from "@tabler/icons-svelte/icons/file-word";
-	import FolderIcon from "@tabler/icons-svelte/icons/folder";
-	import HelpIcon from "@tabler/icons-svelte/icons/help";
-	import InnerShadowTopIcon from "@tabler/icons-svelte/icons/inner-shadow-top";
-	import ListDetailsIcon from "@tabler/icons-svelte/icons/list-details";
-	import ReportIcon from "@tabler/icons-svelte/icons/report";
-	import SearchIcon from "@tabler/icons-svelte/icons/search";
-	import SettingsIcon from "@tabler/icons-svelte/icons/settings";
-	import UsersIcon from "@tabler/icons-svelte/icons/users";
+	import { Camera, BarChart, LayoutDashboard, Database, Bot, FileText, Folder, HelpCircle, Sun, List, AlertTriangle, Search, Settings, Users } from "@lucide/svelte";
+	
+	// Alias para mantener compatibilidad con el código existente
+	const CameraIcon = Camera;
+	const ChartBarIcon = BarChart;
+	const DashboardIcon = LayoutDashboard;
+	const DatabaseIcon = Database;
+	const FileAiIcon = Bot;
+	const FileDescriptionIcon = FileText;
+	const FileWordIcon = FileText;
+	const FolderIcon = Folder;
+	const HelpIcon = HelpCircle;
+	const InnerShadowTopIcon = Sun;
+	const ListDetailsIcon = List;
+	const ReportIcon = AlertTriangle;
+	const SearchIcon = Search;
+	const SettingsIcon = Settings;
+	const UsersIcon = Users;
 	import NavDocuments from "./nav-documents.svelte";
 	import NavMain from "./nav-main.svelte";
 	import NavSecondary from "./nav-secondary.svelte";

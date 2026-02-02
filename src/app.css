@@ -1,9 +1,10 @@
+/* Global styles: Tailwind + design tokens */
 @import "tailwindcss";
-
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
 
+/* Light theme tokens */
 :root {
   --radius: 0.625rem;
   --background: oklch(1 0 0);
@@ -39,6 +40,7 @@
   --sidebar-ring: oklch(0.704 0.04 256.788);
 }
 
+/* Dark theme tokens */
 .dark {
   --background: oklch(0.129 0.042 264.695);
   --foreground: oklch(0.984 0.003 247.858);
@@ -73,6 +75,7 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+/* Tailwind theme mapping (use with @apply) */
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
@@ -111,6 +114,7 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
+/* Base layer: defaults for * and body */
 @layer base {
   * {
     @apply border-border outline-ring/50;

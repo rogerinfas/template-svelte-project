@@ -1,5 +1,7 @@
-// See https://svelte.dev/docs/kit/types#app.d.ts
-// for information about these interfaces
+/**
+ * Tipos globales de SvelteKit (App namespace).
+ * @see https://svelte.dev/docs/kit/types#app.d.ts
+ */
 declare global {
 	namespace App {
 		// interface Error {}

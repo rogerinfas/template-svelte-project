@@ -1,38 +1,68 @@
 # Template Svelte Project
 
-Everything you need to build a Svelte project, powered by [SvelteKit](https://kit.svelte.dev/) and [`sv`](https://github.com/sveltejs/cli).
+[![Svelte](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte)](https://svelte.dev/)
+[![SvelteKit](https://img.shields.io/badge/SvelteKit-2-ff3e00)](https://kit.svelte.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
 
-## Creating a project
+Plantilla base para proyectos SvelteKit con Tailwind CSS, componentes UI (shadcn-style), TanStack Query y Storybook.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Requisitos
 
-```sh
-# create a new project in the current directory
-npx sv create
+- Node.js 18+
+- pnpm (recomendado) o npm
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Instalación
 
 ```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm install
+# o
+npm install
 ```
 
-## Building
+## Desarrollo
 
-To create a production version of your app:
+Inicia el servidor de desarrollo:
 
 ```sh
-npm run build
+pnpm dev
+# o abre en el navegador
+pnpm dev -- --open
 ```
 
-You can preview the production build with `npm run preview`.
+## Build
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Para generar la versión de producción:
+
+```sh
+pnpm build
+```
+
+Previsualiza el build con:
+
+```sh
+pnpm preview
+```
+
+## Scripts disponibles
+
+| Comando | Descripción |
+|---------|-------------|
+| `pnpm dev` | Servidor de desarrollo |
+| `pnpm build` | Build de producción |
+| `pnpm preview` | Previsualizar build |
+| `pnpm lint` | Ejecutar ESLint y Prettier |
+| `pnpm test` | Ejecutar tests unitarios |
+| `pnpm storybook` | Iniciar Storybook (puerto 6006) |
+
+## Documentación
+
+- [IMPLEMENTACION.md](./IMPLEMENTACION.md): estructura del proyecto y guía de implementación.
+
+## Contribuir
+
+1. Crea una rama desde `develop`: `git checkout -b feat/mi-cambio`
+2. Realiza tus cambios y commits con mensajes descriptivos
+3. Abre un Pull Request hacia `develop`
+
+> Para desplegar, puede ser necesario configurar un [adapter](https://svelte.dev/docs/kit/adapters) según tu entorno.

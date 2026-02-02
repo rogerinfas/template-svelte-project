@@ -1,5 +1,10 @@
 # Template Svelte Project
 
+[![Svelte](https://img.shields.io/badge/Svelte-5-ff3e00?logo=svelte)](https://svelte.dev/)
+[![SvelteKit](https://img.shields.io/badge/SvelteKit-2-ff3e00)](https://kit.svelte.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38bdf8?logo=tailwindcss)](https://tailwindcss.com/)
+
 Plantilla base para proyectos SvelteKit con Tailwind CSS, componentes UI (shadcn-style), TanStack Query y Storybook.
 
 ## Requisitos

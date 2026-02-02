@@ -173,4 +173,4 @@ Componentes UI reutilizables:
    - Carga perezosa de rutas
    - Optimización de assets
 
-*Documentación generada automáticamente el 6 de noviembre de 2025*
+*Documentación actualizada — febrero 2026*

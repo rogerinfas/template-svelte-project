@@ -1,3 +1,6 @@
+/**
+ * Storybook: stories, addons (a11y, docs, vitest) y framework SvelteKit.
+ */
 import type { StorybookConfig } from '@storybook/sveltekit';
 
 const config: StorybookConfig = {

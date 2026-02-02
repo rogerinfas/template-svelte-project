@@ -1,6 +1,14 @@
 # Documentación de Implementación
 
-# Estructura Detallada del Proyecto
+## Índice
+
+- [Configuración Principal](#configuración-principal)
+- [Estructura de Directorios](#estructura-de-directorios)
+- [Configuración de Herramientas](#configuración-de-herramientas)
+- [Scripts de pnpm](#scripts-de-pnpm)
+- [Notas de Implementación](#notas-de-implementación)
+
+## Estructura Detallada del Proyecto
 
 ## Configuración Principal
 

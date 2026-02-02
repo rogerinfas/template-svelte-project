@@ -1,6 +1,6 @@
-# sv
+# Template Svelte Project
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Everything you need to build a Svelte project, powered by [SvelteKit](https://kit.svelte.dev/) and [`sv`](https://github.com/sveltejs/cli).
 
 ## Creating a project
 

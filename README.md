@@ -55,4 +55,14 @@ pnpm preview
 | `pnpm test` | Ejecutar tests unitarios |
 | `pnpm storybook` | Iniciar Storybook (puerto 6006) |
 
+## Documentación
+
+- [IMPLEMENTACION.md](./IMPLEMENTACION.md): estructura del proyecto y guía de implementación.
+
+## Contribuir
+
+1. Crea una rama desde `develop`: `git checkout -b feat/mi-cambio`
+2. Realiza tus cambios y commits con mensajes descriptivos
+3. Abre un Pull Request hacia `develop`
+
 > Para desplegar, puede ser necesario configurar un [adapter](https://svelte.dev/docs/kit/adapters) según tu entorno.

@@ -1,3 +1,6 @@
+/**
+ * Vite + SvelteKit config. También define proyectos Vitest (client/server).
+ */
 import devtoolsJson from 'vite-plugin-devtools-json';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vitest/config';

@@ -1,4 +1,7 @@
-import type { Preview } from '@storybook/sveltekit'
+/**
+ * Storybook preview: parámetros globales (controls, matchers).
+ */
+import type { Preview } from '@storybook/sveltekit';
 
 const preview: Preview = {
   parameters: {

@@ -40,5 +40,7 @@ export default defineConfig(
 				svelteConfig
 			}
 		}
-	}
+	},
+	// Storybook: recommended rules for stories and config
+	...storybook.configs['flat/recommended']
 );

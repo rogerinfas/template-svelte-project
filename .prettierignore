@@ -5,5 +5,12 @@ yarn.lock
 bun.lock
 bun.lockb
 
+# Build & generated
+.svelte-kit/
+build/
+dist/
+storybook-static/
+
 # Miscellaneous
 /static/
+*.min.js

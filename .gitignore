@@ -24,3 +24,14 @@ vite.config.ts.timestamp-*
 
 *storybook.log
 storybook-static
+
+# Test coverage
+coverage/
+.nyc_output/
+*.lcov
+
+# IDE / Editor
+.idea/
+*.swp
+*.swo
+.vscode/settings.json

@@ -1,3 +1,6 @@
+/**
+ * Utilidades compartidas: cn para clases CSS y tipos para componentes.
+ */
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 

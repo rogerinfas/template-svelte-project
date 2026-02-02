@@ -2,7 +2,12 @@
 	"name": "frontend-inventory",
 	"private": true,
 	"version": "0.0.1",
+	"description": "Template SvelteKit con Tailwind, componentes UI y TanStack Query",
 	"type": "module",
+	"keywords": ["svelte", "sveltekit", "tailwind", "template"],
+	"engines": {
+		"node": ">=18"
+	},
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",

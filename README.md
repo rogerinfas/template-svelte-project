@@ -54,10 +54,18 @@ pnpm preview
 | `pnpm lint` | Ejecutar ESLint y Prettier |
 | `pnpm test` | Ejecutar tests unitarios |
 | `pnpm storybook` | Iniciar Storybook (puerto 6006) |
+| `pnpm validate` | Ejecutar check, lint y tests |
+
+## Testing y Storybook
+
+- **Tests unitarios**: `pnpm test` (usa Vitest y vitest-browser-svelte).
+- **Typecheck**: `pnpm typecheck` para validar tipos de TypeScript.
+- **Storybook**: `pnpm storybook` para explorar los componentes UI.
 
 ## Documentación
 
 - [IMPLEMENTACION.md](./IMPLEMENTACION.md): estructura del proyecto y guía de implementación.
+- [docs/ACCESSIBILITY.md](./docs/ACCESSIBILITY.md): pautas básicas de accesibilidad.
 
 ## Contribuir
 

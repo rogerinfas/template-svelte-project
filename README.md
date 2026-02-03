@@ -74,3 +74,9 @@ pnpm preview
 3. Abre un Pull Request hacia `develop`
 
 > Para desplegar, puede ser necesario configurar un [adapter](https://svelte.dev/docs/kit/adapters) según tu entorno.
+
+## Entorno y variables
+
+- Crea un archivo `.env` a partir de `.env.example`.
+- Usa el prefijo `VITE_` para variables expuestas al cliente.
+- El cliente OpenAPI se configura en `src/lib/api/backend.ts`.

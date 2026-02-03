@@ -87,3 +87,10 @@ pnpm preview
 - `src/lib/components`: componentes UI reutilizables (botones, tablas, formularios, layout).
 - `src/lib/api`: cliente OpenAPI y tipos generados.
 - `src/stories`: historias de ejemplo para Storybook.
+
+## Flujo de trabajo recomendado
+
+1. Crear rama desde `develop`.
+2. Implementar cambios y ejecutar `pnpm validate`.
+3. Abrir PR hacia `develop` y solicitar revisión.
+4. Opcional: usar Storybook para validar componentes visuales.

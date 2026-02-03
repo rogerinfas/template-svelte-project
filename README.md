@@ -54,10 +54,18 @@ pnpm preview
 | `pnpm lint` | Ejecutar ESLint y Prettier |
 | `pnpm test` | Ejecutar tests unitarios |
 | `pnpm storybook` | Iniciar Storybook (puerto 6006) |
+| `pnpm validate` | Ejecutar check, lint y tests |
+
+## Testing y Storybook
+
+- **Tests unitarios**: `pnpm test` (usa Vitest y vitest-browser-svelte).
+- **Typecheck**: `pnpm typecheck` para validar tipos de TypeScript.
+- **Storybook**: `pnpm storybook` para explorar los componentes UI.
 
 ## Documentación
 
 - [IMPLEMENTACION.md](./IMPLEMENTACION.md): estructura del proyecto y guía de implementación.
+- [docs/ACCESSIBILITY.md](./docs/ACCESSIBILITY.md): pautas básicas de accesibilidad.
 
 ## Contribuir
 
@@ -66,3 +74,23 @@ pnpm preview
 3. Abre un Pull Request hacia `develop`
 
 > Para desplegar, puede ser necesario configurar un [adapter](https://svelte.dev/docs/kit/adapters) según tu entorno.
+
+## Entorno y variables
+
+- Crea un archivo `.env` a partir de `.env.example`.
+- Usa el prefijo `VITE_` para variables expuestas al cliente.
+- El cliente OpenAPI se configura en `src/lib/api/backend.ts`.
+
+## Arquitectura rápida
+
+- `src/routes`: rutas públicas, de autenticación y protegidas.
+- `src/lib/components`: componentes UI reutilizables (botones, tablas, formularios, layout).
+- `src/lib/api`: cliente OpenAPI y tipos generados.
+- `src/stories`: historias de ejemplo para Storybook.
+
+## Flujo de trabajo recomendado
+
+1. Crear rama desde `develop`.
+2. Implementar cambios y ejecutar `pnpm validate`.
+3. Abrir PR hacia `develop` y solicitar revisión.
+4. Opcional: usar Storybook para validar componentes visuales.

@@ -80,3 +80,10 @@ pnpm preview
 - Crea un archivo `.env` a partir de `.env.example`.
 - Usa el prefijo `VITE_` para variables expuestas al cliente.
 - El cliente OpenAPI se configura en `src/lib/api/backend.ts`.
+
+## Arquitectura rápida
+
+- `src/routes`: rutas públicas, de autenticación y protegidas.
+- `src/lib/components`: componentes UI reutilizables (botones, tablas, formularios, layout).
+- `src/lib/api`: cliente OpenAPI y tipos generados.
+- `src/stories`: historias de ejemplo para Storybook.

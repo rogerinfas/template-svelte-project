@@ -10,4 +10,11 @@ describe('Auth /forgot-password page', () => {
 		const heading = page.getByText('Restablecer contraseña');
 		await expect.element(heading).toBeInTheDocument();
 	});
+
+	it('has email field to request reset', async () => {
+		render(ForgotPasswordPage);
+
+		const emailInput = page.getByLabelText('Correo electrónico');
+		await expect.element(emailInput).toBeInTheDocument();
+	});
 });

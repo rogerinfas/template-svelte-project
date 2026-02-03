@@ -14,3 +14,10 @@ Guía rápida de accesibilidad para las pantallas de autenticación y dashboard 
 - `/` y `/login`: formulario de inicio de sesión.
 - `/forgot-password`: restablecimiento de contraseña.
 - `/dashboard`: vista protegida con contenido principal.
+
+## Checklist para desarrollo
+
+- [ ] Todos los formularios tienen etiquetas asociadas.
+- [ ] Los botones describen claramente la acción.
+- [ ] Los mensajes de éxito/error se anuncian de forma visible.
+- [ ] No hay atajos de teclado que bloqueen la navegación.

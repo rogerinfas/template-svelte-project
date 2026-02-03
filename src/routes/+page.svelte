@@ -27,7 +27,7 @@
 		}
 	</script>
 
-	<div class="min-h-screen flex flex-row-reverse">
+	<main class="min-h-screen flex flex-row-reverse" aria-label="Pantalla de inicio de sesión">
 		<!-- Sección de imagen (derecha) -->
 		<div class="hidden lg:flex w-3/5 bg-gray-100 relative">
 			<div 

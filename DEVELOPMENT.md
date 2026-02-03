@@ -22,3 +22,9 @@ Esta guía describe el flujo recomendado para trabajar con el template SvelteKit
 - `pnpm lint`: comprobación de formato y lint.
 - `pnpm test`: ejecución de tests unitarios.
 - `pnpm storybook`: entorno visual de componentes.
+
+## Buenas prácticas
+
+- Mantener commits pequeños y descriptivos.
+- Actualizar documentación cuando cambien flujos o scripts.
+- Ejecutar `pnpm validate` antes de abrir cualquier PR.

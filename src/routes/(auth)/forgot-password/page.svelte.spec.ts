@@ -17,4 +17,11 @@ describe('Auth /forgot-password page', () => {
 		const emailInput = page.getByLabelText('Correo electrónico');
 		await expect.element(emailInput).toBeInTheDocument();
 	});
+
+	it('links back to login', async () => {
+		render(ForgotPasswordPage);
+
+		const loginLink = page.getByRole('link', { name: /Iniciar sesión/i });
+		await expect.element(loginLink).toBeInTheDocument();
+	});
 });

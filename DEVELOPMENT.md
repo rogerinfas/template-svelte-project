@@ -14,3 +14,11 @@ Esta guía describe el flujo recomendado para trabajar con el template SvelteKit
 2. Crear rama de trabajo: `git checkout -b feat/mi-feature`.
 3. Implementar cambios y ejecutar `pnpm validate`.
 4. Subir la rama y abrir PR hacia `develop`.
+
+## Comandos útiles
+
+- `pnpm dev`: servidor de desarrollo.
+- `pnpm check`: typecheck rápido.
+- `pnpm lint`: comprobación de formato y lint.
+- `pnpm test`: ejecución de tests unitarios.
+- `pnpm storybook`: entorno visual de componentes.

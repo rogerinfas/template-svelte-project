@@ -10,4 +10,13 @@ describe('Auth /login page', () => {
 		const heading = page.getByText('Hola! Bienvenidos');
 		await expect.element(heading).toBeInTheDocument();
 	});
+
+	it('has email and password inputs', async () => {
+		render(LoginPage);
+
+		const emailInput = page.getByLabelText('Correo electrónico');
+		const passwordInput = page.getByLabelText('Contraseña');
+		await expect.element(emailInput).toBeInTheDocument();
+		await expect.element(passwordInput).toBeInTheDocument();
+	});
 });
